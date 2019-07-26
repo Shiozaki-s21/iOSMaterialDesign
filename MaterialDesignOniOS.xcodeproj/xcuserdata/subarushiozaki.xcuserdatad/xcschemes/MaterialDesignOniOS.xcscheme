@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4258E8FC0C2DB3BD1EAB6C4E"
+               BuildableName = "MaterialDesignOniOS.app"
+               BlueprintName = "MaterialDesignOniOS"
+               ReferencedContainer = "container:MaterialDesignOniOS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4258E8FC0C2DB3BD1EAB6C4E"
+            BuildableName = "MaterialDesignOniOS.app"
+            BlueprintName = "MaterialDesignOniOS"
+            ReferencedContainer = "container:MaterialDesignOniOS.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

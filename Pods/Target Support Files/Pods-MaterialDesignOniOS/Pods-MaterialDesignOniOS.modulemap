@@ -1,0 +1,6 @@
+framework module Pods_MaterialDesignOniOS {
+  umbrella header "Pods-MaterialDesignOniOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

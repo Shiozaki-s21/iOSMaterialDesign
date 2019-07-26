@@ -1,0 +1,42 @@
+PODS:
+  - MaterialComponents/AnimationTiming (85.1.0)
+  - MaterialComponents/BottomNavigation (85.1.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Ink (85.1.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (85.1.0)
+  - MaterialComponents/private/Application (85.1.0)
+  - MaterialComponents/private/Math (85.1.0)
+  - MaterialComponents/Ripple (85.1.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (85.1.0)
+  - MaterialComponents/ShadowLayer (85.1.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Typography (85.1.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+
+DEPENDENCIES:
+  - MaterialComponents/BottomNavigation
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialComponents
+    - MDFInternationalization
+
+SPEC CHECKSUMS:
+  MaterialComponents: 7401c9849f9860a214f35453e040dc17502e8b6f
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+
+PODFILE CHECKSUM: c79a8e48c6c6399b02480d720fd527f4a7cbf208
+
+COCOAPODS: 1.7.2
