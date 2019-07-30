@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4258E27360921E8220D48FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4258EA62F86ED35A320326B2 /* Assets.xcassets */; };
+		0C59766322EF965C0099189D /* FirstTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766222EF965C0099189D /* FirstTab.swift */; };
+		0C59766522EF96660099189D /* SecondTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766422EF96660099189D /* SecondTab.swift */; };
+		0C59766922EFDE9A0099189D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C59766822EFDE9A0099189D /* Assets.xcassets */; };
 		4258E2C1836B60E624C315A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4258E06D45395CCBED43CB05 /* Main.storyboard */; };
 		4258E620DC5D2A678ED6F0B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EF63D52AB00F68C472C7 /* AppDelegate.swift */; };
 		4258E6891F85D33E9EF4052F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4258E604889AAEC74E362680 /* LaunchScreen.storyboard */; };
@@ -16,10 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C59766222EF965C0099189D /* FirstTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTab.swift; sourceTree = "<group>"; };
+		0C59766422EF96660099189D /* SecondTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTab.swift; sourceTree = "<group>"; };
+		0C59766822EFDE9A0099189D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA329E6754962EE9B821244 /* Pods-MaterialDesignOniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialDesignOniOS.debug.xcconfig"; path = "Target Support Files/Pods-MaterialDesignOniOS/Pods-MaterialDesignOniOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4258E783D1213C40785C50B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4258E7A3FD547A9E5DE487D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4258EA62F86ED35A320326B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4258EE5666136291B77A60FC /* MaterialDesignOniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialDesignOniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4258EEAC58ACD9203A697668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4258EF4D04BF2EA72A9DC014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,10 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				4258EEAC58ACD9203A697668 /* Info.plist */,
-				4258EA62F86ED35A320326B2 /* Assets.xcassets */,
 				4258E604889AAEC74E362680 /* LaunchScreen.storyboard */,
 				4258EF63D52AB00F68C472C7 /* AppDelegate.swift */,
 				4258E06D45395CCBED43CB05 /* Main.storyboard */,
+				0C59766822EFDE9A0099189D /* Assets.xcassets */,
+				0C59766222EF965C0099189D /* FirstTab.swift */,
+				0C59766422EF96660099189D /* SecondTab.swift */,
 				4258E7A3FD547A9E5DE487D6 /* ViewController.swift */,
 			);
 			path = MaterialDesignOniOS;
@@ -85,7 +91,6 @@
 				2FA329E6754962EE9B821244 /* Pods-MaterialDesignOniOS.debug.xcconfig */,
 				F1AF0FDB8A4E7B6889003E6F /* Pods-MaterialDesignOniOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,8 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4258E27360921E8220D48FD6 /* Assets.xcassets in Resources */,
 				4258E6891F85D33E9EF4052F /* LaunchScreen.storyboard in Resources */,
+				0C59766922EFDE9A0099189D /* Assets.xcassets in Resources */,
 				4258E2C1836B60E624C315A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C59766322EF965C0099189D /* FirstTab.swift in Sources */,
+				0C59766522EF96660099189D /* SecondTab.swift in Sources */,
 				4258E620DC5D2A678ED6F0B9 /* AppDelegate.swift in Sources */,
 				4258EB3AD814E60B53FFEBB9 /* ViewController.swift in Sources */,
 			);

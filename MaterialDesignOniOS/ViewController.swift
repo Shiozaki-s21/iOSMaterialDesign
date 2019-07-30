@@ -34,6 +34,25 @@ class ViewController: UIViewController {
 
         bottomNavBar.frame = bottomNavBarFrame
 
-        bottomNavBar.acc
+        let firstTab = FirstTab()
+        let secondTab = SecondTab()
+        firstTab.title = "FirstTab"
+        firstTab.accessibilityLabel = "FirstTab"
+        firstTab.tag = 1
+        firstTab.image = UIImage(named: "star")
+        secondTab.title = "SecondTab"
+        secondTab.tag = 2
+        secondTab.image = UIImage(named: "face")
+        bottomNavBar.items = [firstTab, secondTab]
+        bottomNavBar.selectedItem = firstTab
+        bottomNavBar.backgroundColor = .darkGray
+        bottomNavBar.tintColor = .red
+        bottomNavBar.selectedItemTintColor = .red
+      
+        // TODO: How to put the badges
+        firstTab.accessibilityValue = "10 unread"
+        firstTab.accessibilityLabel = "10"
+
+        
     }
 }
