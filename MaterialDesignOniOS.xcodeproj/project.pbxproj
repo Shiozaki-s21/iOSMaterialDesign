@@ -10,6 +10,7 @@
 		0C59766322EF965C0099189D /* FirstTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766222EF965C0099189D /* FirstTab.swift */; };
 		0C59766522EF96660099189D /* SecondTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766422EF96660099189D /* SecondTab.swift */; };
 		0C59766922EFDE9A0099189D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C59766822EFDE9A0099189D /* Assets.xcassets */; };
+		0C59766B22EFF0720099189D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766A22EFF0720099189D /* TestViewController.swift */; };
 		4258E2C1836B60E624C315A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4258E06D45395CCBED43CB05 /* Main.storyboard */; };
 		4258E620DC5D2A678ED6F0B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EF63D52AB00F68C472C7 /* AppDelegate.swift */; };
 		4258E6891F85D33E9EF4052F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4258E604889AAEC74E362680 /* LaunchScreen.storyboard */; };
@@ -21,6 +22,7 @@
 		0C59766222EF965C0099189D /* FirstTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTab.swift; sourceTree = "<group>"; };
 		0C59766422EF96660099189D /* SecondTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTab.swift; sourceTree = "<group>"; };
 		0C59766822EFDE9A0099189D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C59766A22EFF0720099189D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		2FA329E6754962EE9B821244 /* Pods-MaterialDesignOniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialDesignOniOS.debug.xcconfig"; path = "Target Support Files/Pods-MaterialDesignOniOS/Pods-MaterialDesignOniOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4258E783D1213C40785C50B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4258E7A3FD547A9E5DE487D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				4258E06D45395CCBED43CB05 /* Main.storyboard */,
 				0C59766822EFDE9A0099189D /* Assets.xcassets */,
 				0C59766222EF965C0099189D /* FirstTab.swift */,
+				0C59766A22EFF0720099189D /* TestViewController.swift */,
 				0C59766422EF96660099189D /* SecondTab.swift */,
 				4258E7A3FD547A9E5DE487D6 /* ViewController.swift */,
 			);
@@ -187,11 +190,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MaterialDesignOniOS/Pods-MaterialDesignOniOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C59766B22EFF0720099189D /* TestViewController.swift in Sources */,
 				0C59766322EF965C0099189D /* FirstTab.swift in Sources */,
 				0C59766522EF96660099189D /* SecondTab.swift in Sources */,
 				4258E620DC5D2A678ED6F0B9 /* AppDelegate.swift in Sources */,

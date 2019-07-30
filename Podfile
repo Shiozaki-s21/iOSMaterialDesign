@@ -7,4 +7,6 @@ target 'MaterialDesignOniOS' do
 
   # Pods for MaterialDesignOniOS
   pod 'MaterialComponents/BottomNavigation'
+  pod 'MaterialComponents/List'
+  pod 'MaterialComponents/Buttons'
 end
