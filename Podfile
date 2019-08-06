@@ -6,7 +6,11 @@ target 'MaterialDesignOniOS' do
   use_frameworks!
 
   # Pods for MaterialDesignOniOS
-  pod 'MaterialComponents/BottomNavigation'
-  pod 'MaterialComponents/List'
-  pod 'MaterialComponents/Buttons'
+  # pod 'MaterialComponents/BottomNavigation'
+  # pod 'MaterialComponents/List'
+  # pod 'MaterialComponents/Buttons'
+  # pod 'MaterialComponents'
+  pod 'MaterialComponents', :git => 'https://github.com/material-components/material-components-ios.git', :branch => 'develop'
+  pod 'MaterialComponentsBeta', :git => 'https://github.com/material-components/material-components-ios.git'
+
 end

@@ -7,28 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C59766322EF965C0099189D /* FirstTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766222EF965C0099189D /* FirstTab.swift */; };
-		0C59766522EF96660099189D /* SecondTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766422EF96660099189D /* SecondTab.swift */; };
 		0C59766922EFDE9A0099189D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C59766822EFDE9A0099189D /* Assets.xcassets */; };
 		0C59766B22EFF0720099189D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766A22EFF0720099189D /* TestViewController.swift */; };
-		4258E2C1836B60E624C315A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4258E06D45395CCBED43CB05 /* Main.storyboard */; };
+		0C59766D22F112890099189D /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766C22F112890099189D /* FirstTabViewController.swift */; };
+		0C59766F22F29E1B0099189D /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59766E22F29E1B0099189D /* SecondTabViewController.swift */; };
+		4258E1F905E9998F34A2EF48 /* BottomNavigationBarContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EDFEC2164ED79FE9C291 /* BottomNavigationBarContainerViewController.swift */; };
 		4258E620DC5D2A678ED6F0B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258EF63D52AB00F68C472C7 /* AppDelegate.swift */; };
 		4258E6891F85D33E9EF4052F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4258E604889AAEC74E362680 /* LaunchScreen.storyboard */; };
+		4258EA33D7CB69C2350CCC56 /* SecondTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258E290C4F7400459E3FF76 /* SecondTab.swift */; };
 		4258EB3AD814E60B53FFEBB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258E7A3FD547A9E5DE487D6 /* ViewController.swift */; };
+		4258EB6CB13A4293017EF43E /* FirstTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258E215E5D8F5EF42739942 /* FirstTab.swift */; };
+		4258EDCEC2D89D00FA55329B /* BottomNavigationControllerExampleFixedChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258E5B69462F2006BA18580 /* BottomNavigationControllerExampleFixedChildViewController.swift */; };
+		4258EF2F0AB7BE183EA947B7 /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4258E27879999105C894E027 /* BottomNavigationBar.swift */; };
 		BBA1418F7B20143AD5D3CD45 /* Pods_MaterialDesignOniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC19F0799CFF61BEF47246B8 /* Pods_MaterialDesignOniOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C59766222EF965C0099189D /* FirstTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTab.swift; sourceTree = "<group>"; };
-		0C59766422EF96660099189D /* SecondTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTab.swift; sourceTree = "<group>"; };
 		0C59766822EFDE9A0099189D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C59766A22EFF0720099189D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		0C59766C22F112890099189D /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		0C59766E22F29E1B0099189D /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
 		2FA329E6754962EE9B821244 /* Pods-MaterialDesignOniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialDesignOniOS.debug.xcconfig"; path = "Target Support Files/Pods-MaterialDesignOniOS/Pods-MaterialDesignOniOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4258E215E5D8F5EF42739942 /* FirstTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTab.swift; sourceTree = "<group>"; };
+		4258E27879999105C894E027 /* BottomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
+		4258E290C4F7400459E3FF76 /* SecondTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTab.swift; sourceTree = "<group>"; };
+		4258E5B69462F2006BA18580 /* BottomNavigationControllerExampleFixedChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomNavigationControllerExampleFixedChildViewController.swift; sourceTree = "<group>"; };
 		4258E783D1213C40785C50B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4258E7A3FD547A9E5DE487D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4258EDFEC2164ED79FE9C291 /* BottomNavigationBarContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomNavigationBarContainerViewController.swift; sourceTree = "<group>"; };
 		4258EE5666136291B77A60FC /* MaterialDesignOniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialDesignOniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4258EEAC58ACD9203A697668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		4258EF4D04BF2EA72A9DC014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4258EF63D52AB00F68C472C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC19F0799CFF61BEF47246B8 /* Pods_MaterialDesignOniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialDesignOniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AF0FDB8A4E7B6889003E6F /* Pods-MaterialDesignOniOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialDesignOniOS.release.xcconfig"; path = "Target Support Files/Pods-MaterialDesignOniOS/Pods-MaterialDesignOniOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +62,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4258E0FF078F81AA5E2E6178 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4258E27879999105C894E027 /* BottomNavigationBar.swift */,
+				4258E290C4F7400459E3FF76 /* SecondTab.swift */,
+				0C59766E22F29E1B0099189D /* SecondTabViewController.swift */,
+				4258E215E5D8F5EF42739942 /* FirstTab.swift */,
+				0C59766C22F112890099189D /* FirstTabViewController.swift */,
+				4258EDFEC2164ED79FE9C291 /* BottomNavigationBarContainerViewController.swift */,
+				4258E5B69462F2006BA18580 /* BottomNavigationControllerExampleFixedChildViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4258E274D368BB5B1E43641F = {
 			isa = PBXGroup;
 			children = (
@@ -70,12 +92,10 @@
 				4258EEAC58ACD9203A697668 /* Info.plist */,
 				4258E604889AAEC74E362680 /* LaunchScreen.storyboard */,
 				4258EF63D52AB00F68C472C7 /* AppDelegate.swift */,
-				4258E06D45395CCBED43CB05 /* Main.storyboard */,
 				0C59766822EFDE9A0099189D /* Assets.xcassets */,
-				0C59766222EF965C0099189D /* FirstTab.swift */,
 				0C59766A22EFF0720099189D /* TestViewController.swift */,
-				0C59766422EF96660099189D /* SecondTab.swift */,
 				4258E7A3FD547A9E5DE487D6 /* ViewController.swift */,
+				4258E0FF078F81AA5E2E6178 /* View */,
 			);
 			path = MaterialDesignOniOS;
 			sourceTree = "<group>";
@@ -126,6 +146,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = KazuyaTakahashi;
+				TargetAttributes = {
+					4258E8FC0C2DB3BD1EAB6C4E = {
+						DevelopmentTeam = FS7Z333KZ7;
+					};
+				};
 			};
 			buildConfigurationList = 4258E5D581B0664D2E60AF17 /* Build configuration list for PBXProject "MaterialDesignOniOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -153,7 +178,6 @@
 			files = (
 				4258E6891F85D33E9EF4052F /* LaunchScreen.storyboard in Resources */,
 				0C59766922EFDE9A0099189D /* Assets.xcassets in Resources */,
-				4258E2C1836B60E624C315A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,12 +216,20 @@
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponentsBeta/MaterialComponentsBeta.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponentsBeta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -212,24 +244,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C59766B22EFF0720099189D /* TestViewController.swift in Sources */,
-				0C59766322EF965C0099189D /* FirstTab.swift in Sources */,
-				0C59766522EF96660099189D /* SecondTab.swift in Sources */,
 				4258E620DC5D2A678ED6F0B9 /* AppDelegate.swift in Sources */,
+				0C59766F22F29E1B0099189D /* SecondTabViewController.swift in Sources */,
 				4258EB3AD814E60B53FFEBB9 /* ViewController.swift in Sources */,
+				4258EF2F0AB7BE183EA947B7 /* BottomNavigationBar.swift in Sources */,
+				4258EA33D7CB69C2350CCC56 /* SecondTab.swift in Sources */,
+				0C59766D22F112890099189D /* FirstTabViewController.swift in Sources */,
+				4258EB6CB13A4293017EF43E /* FirstTab.swift in Sources */,
+				4258E1F905E9998F34A2EF48 /* BottomNavigationBarContainerViewController.swift in Sources */,
+				4258EDCEC2D89D00FA55329B /* BottomNavigationControllerExampleFixedChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4258E06D45395CCBED43CB05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4258EF4D04BF2EA72A9DC014 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4258E604889AAEC74E362680 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -246,6 +275,7 @@
 			baseConfigurationReference = 2FA329E6754962EE9B821244 /* Pods-MaterialDesignOniOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FS7Z333KZ7;
 				INFOPLIST_FILE = MaterialDesignOniOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KazuyaTakahashi.MaterialDesignOniOS;
@@ -375,6 +405,7 @@
 			baseConfigurationReference = F1AF0FDB8A4E7B6889003E6F /* Pods-MaterialDesignOniOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FS7Z333KZ7;
 				INFOPLIST_FILE = MaterialDesignOniOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KazuyaTakahashi.MaterialDesignOniOS;
